@@ -5,6 +5,9 @@
    padding: 0;
    box-sizing: border-box;
 }
+.logo{
+   font-size: 1.5rem;
+}
 
 html {
    font-family: "Lato", sans-serif;
@@ -22,7 +25,7 @@ html {
    max-width: 1440px;
    margin: 0 auto;
    display: flex;
-   padding: 25px 20px 0;
+   padding: 12px 40px;
    color: white;
    align-items: center;
    
@@ -60,7 +63,7 @@ html {
 
 .header__nav {
    position: absolute;
-   margin-top: 10px;
+   margin-top: 10px; 
    right: -500%;
    text-align: right;
    visibility: hidden;
@@ -83,13 +86,15 @@ html {
 }
 
 .hero-inner{
-   padding: 20px;
+   
    max-width: 1440px;
    margin: 0 auto;
+   padding: 0 40px;
 }
 
 .hero {
-   padding-top: 125px;
+   
+   padding-top: 100px;
    background: linear-gradient(
          180deg,
          rgba(53, 66, 103, 0.0001) 0%,
@@ -107,12 +112,14 @@ html {
 
 
 .hero__heading{
-   margin-top: 125px;
+   
+   margin-top: 0;
    font-family: 'Lato';
    font-weight: 400;
    font-size: 48px;
    line-height: 100%;   
-   max-width: 250px;
+   max-width: 80%;
+  
 }
 
 .hero__text{
@@ -179,7 +186,7 @@ html {
    border: none;
    color: white;
    align-self: flex-end;
-   margin-top: 70px;
+   margin-top: 30px;
    cursor: pointer;
 }
 
@@ -192,6 +199,8 @@ html {
    
    .hero__heading{
       max-width:600px;
+      margin-top: 150px;
+      
    }
    .header__navBtn{
       display: none;
@@ -203,6 +212,7 @@ html {
    .header__nav {
       position: static;
       visibility: visible;      
+      margin-top: 0px;
    }
    .header__nav-list{
       align-items: center;
