@@ -35,10 +35,10 @@ let timeLine1 = gsap.timeline({
    scrollTrigger: {
       trigger: ".main",
       start: "10%",
-      end: "50%",
+      end: "30%",
       scrub: 1,
    },
 });
 
 
-timeLine1.to(".header",  { backgroundColor: "#0f0f0f" });
+timeLine1.to(".header",  { backgroundColor: "#0a0a0a" });
