@@ -88,6 +88,11 @@ html {
    margin: 0 auto;
 }
 
+
+
+
+
+
 .hero {
    padding-top: 125px;
    background: linear-gradient(
@@ -104,6 +109,7 @@ html {
    
 
 }
+
 
 
 .hero__heading{
